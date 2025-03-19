@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Red Bull Racing",
+        "fotoLogotipo": "../img/escuderias/logotipo/red_bull.avif",
+        "fotoCoche": "../img/escuderias/coche/red_bull.avif",
+        "pilotos": [1, 2],
+        "posicion": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Mercedes",
+        "fotoLogotipo": "../img/escuderias/logotipo/mercedes.avif",
+        "fotoCoche": "../img/escuderias/coche/mercedes.avif",
+        "pilotos": [3, 4],
+        "posicion": 2
+    },
+    {
+        "id": 3,
+        "nombre": "Ferrari",
+        "fotoLogotipo": "../img/escuderias/logotipo/ferrari.avif",
+        "fotoCoche": "../img/escuderias/coche/ferrari.avif",
+        "pilotos": [5, 6],
+        "posicion": 3
+    },
+    {
+        "id": 4,
+        "nombre": "McLaren",
+        "fotoLogotipo": "../img/escuderias/logotipo/mclaren.avif",
+        "fotoCoche": "../img/escuderias/coche/mclaren.avif",
+        "pilotos": [7, 8],
+        "posicion": 4
+    },
+    {
+        "id": 5,
+        "nombre": "Aston Martin",
+        "fotoLogotipo": "../img/escuderias/logotipo/aston_martin.avif",
+        "fotoCoche": "../img/escuderias/coche/aston_martin.avif",
+        "pilotos": [9, 10],
+        "posicion": 5
+    },
+    {
+        "id": 6,
+        "nombre": "Visa CashApp RB",
+        "fotoLogotipo": "../img/escuderias/logotipo/racing_bulls.png",
+        "fotoCoche": "../img/escuderias/coche/racing_bulls.avif",
+        "pilotos": [11, 12],
+        "posicion": 6
+    },
+    {
+        "id": 7,
+        "nombre": "Audi Sauber",
+        "fotoLogotipo": "../img/escuderias/logotipo/sauber.avif",
+        "fotoCoche": "../img/escuderias/coche/sauber.avif",
+        "pilotos": [13, 14],
+        "posicion": 7
+    },
+    {
+        "id": 8,
+        "nombre": "Alpine",
+        "fotoLogotipo": "../img/escuderias/logotipo/alpine.avif",
+        "fotoCoche": "../img/escuderias/coche/alpine.avif",
+        "pilotos": [15, 16],
+        "posicion": 8
+    },
+    {
+        "id": 9,
+        "nombre": "Haas",
+        "fotoLogotipo": "../img/escuderias/logotipo/haas.avif",
+        "fotoCoche": "../img/escuderias/coche/haas.avif",
+        "pilotos": [17, 18],
+        "posicion": 9
+    },
+    {
+        "id": 10,
+        "nombre": "Williams",
+        "fotoLogotipo": "../img/escuderias/logotipo/williams.avif",
+        "fotoCoche": "../img/escuderias/coche/williams.avif",
+        "pilotos": [19, 20],
+        "posicion": 10
+    }
+]

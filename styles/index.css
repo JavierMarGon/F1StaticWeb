@@ -1,0 +1,180 @@
+/* styles.css */
+
+/* Reseteo de márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f00; /* Rojo Fórmula 1 */
+}
+
+/* Estilos para el main */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Sección de pilotos, escuderías y calendario usando CSS Grid */
+#home-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+/* Estilo específico para la sección de pilotos */
+#pilotos {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pilotos:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+#pilotos a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f00;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#pilotos a:hover {
+    background-color: #c00; /* Rojo más oscuro al pasar el mouse */
+}
+
+/* Estilo específico para la sección de escuderías */
+#escuderias {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#escuderias:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+#escuderias a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f00;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#escuderias a:hover {
+    background-color: #c00;
+}
+
+/* Estilo específico para la sección de calendario */
+#calendario {
+    background-color: #555;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#calendario:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+#calendario a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-top: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f00;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#calendario a:hover {
+    background-color: #c00;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Diseño Responsivo */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* En pantallas pequeñas, las secciones deben estar en una sola columna */
+    #home-sections {
+        grid-template-columns: 1fr; /* Una sola columna */
+    }
+}
