@@ -20,7 +20,7 @@
     {
         "fecha": "13 de abril de 2025",
         "nombre": "Gran Premio de Baréin",
-        "imagenPista": "../img/calendario/Bahrain.avif",
+        "imagenPista": "../img/calendario/Bahrain_Circuit.avif",
         "localizacion": "Sakhir, Baréin"
     },
     {
@@ -74,7 +74,7 @@
     {
         "fecha": "27 de julio de 2025",
         "nombre": "Gran Premio de Bélgica",
-        "imagenPista": "../img/calendario/Belgium_Circuit.avif",
+        "imagenPista": "../img/calendario/Belgium_Circuit.png",
         "localizacion": "Spa-Francorchamps, Bélgica"
     },
     {

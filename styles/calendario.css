@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
 }
 
-/* Header Styles */
 header {
     background-color: #e10600; /* F1 Red */
     padding: 10px 20px;
@@ -40,100 +39,58 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Main Content Styles */
 main {
     flex: 1;
     padding: 20px;
 }
 
-h2 {
+h1 {
     color: #e10600;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-/* Featured News Section */
-#featured-news .news-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.news-card {
-    background-color: #333;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.news-card:hover {
-    transform: translateY(-5px);
-}
-
-.news-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.news-card h3 {
-    padding: 15px;
-    margin: 0;
-    font-size: 1.5em;
-    color: #fff;
-}
-
-.news-card p {
-    padding: 0 15px 15px;
-    margin: 0;
-    color: #ccc;
-}
-
-.news-card .read-more {
-    display: block;
-    padding: 10px 15px;
-    background-color: #e10600;
-    color: #fff;
+    font-size: 2.5em;
     text-align: center;
-    text-decoration: none;
-    font-weight: bold;
+    margin-bottom: 30px;
 }
 
-.news-card .read-more:hover {
-    background-color: #c10500;
-}
-
-/* Latest Updates Section */
-#latest-updates .updates-list {
+/* Calendar Grid */
+.container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Increase card width */
+    gap: 30px; /* Increase gap between cards */
 }
 
-.update-card {
+.card {
     background-color: #333;
-    padding: 20px;
+    padding: 25px; /* Increase padding for larger cards */
     border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.update-card h3 {
-    margin: 0 0 10px;
-    font-size: 1.3em;
+.card:hover {
+    transform: translateY(-5px); /* Add hover effect */
+    box-shadow: 0 5px 15px rgba(225, 6, 0, 0.3); /* Add shadow on hover */
+}
+
+.card img {
+    width: 100%; /* Ensure the image takes up the full card width */
+    height: 200px; /* Increase image height */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add spacing below the image */
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.5em; /* Increase font size for the race name */
     color: #fff;
 }
 
-.update-card p {
-    margin: 0 0 10px;
+.card p {
+    margin: 5px 0;
     color: #ccc;
+    font-size: 1.1em; /* Increase font size for details */
 }
 
-.update-card .update-date {
-    display: block;
-    font-size: 0.9em;
-    color: #888;
-}
-
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -142,8 +99,6 @@ footer {
     width: 100%;
     margin-top: auto; /* Pushes the footer to the bottom */
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: column;

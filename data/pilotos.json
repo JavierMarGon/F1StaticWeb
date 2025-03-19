@@ -4,16 +4,16 @@
         "nombre": "Max Verstappen",
         "foto": "../img/pilotos/m_verstappen.avif",
         "escuderia": 1,
-        "posicion": 1,
-        "puntos": 25
+        "posicion": 2,
+        "puntos": 18
     },
     {
         "id": 2,
         "nombre": "Liam Lawson",
         "foto": "../img/pilotos/l_lawson.avif",
         "escuderia": 1,
-        "posicion": 2,
-        "puntos": 18
+        "posicion": 15,
+        "puntos": 0
     },
     {
         "id": 3,
@@ -36,55 +36,55 @@
         "nombre": "Charles Leclerc",
         "foto": "../img/pilotos/c_leclerc.avif",
         "escuderia": 3,
-        "posicion": 5,
-        "puntos": 10
+        "posicion": 8,
+        "puntos": 4
     },
     {
         "id": 6,
         "nombre": "Lewis Hamilton",
         "foto": "../img/pilotos/l_hamilton.avif",
         "escuderia": 3,
-        "posicion": 6,
-        "puntos": 8
+        "posicion": 10,
+        "puntos": 1
     },
     {
         "id": 7,
         "nombre": "Lando Norris",
         "foto": "../img/pilotos/l_norris.avif",
         "escuderia": 4,
-        "posicion": 7,
-        "puntos": 6
+        "posicion": 1,
+        "puntos": 25
     },
     {
         "id": 8,
         "nombre": "Oscar Piastri",
         "foto": "../img/pilotos/o_piastri.avif",
         "escuderia": 4,
-        "posicion": 8,
-        "puntos": 4
+        "posicion": 9,
+        "puntos": 2
     },
     {
         "id": 9,
         "nombre": "Fernando Alonso",
         "foto": "../img/pilotos/f_alonso.avif",
         "escuderia": 5,
-        "posicion": 9,
-        "puntos": 2
+        "posicion": 17,
+        "puntos": 0
     },
     {
         "id": 10,
         "nombre": "Lance Stroll",
         "foto": "../img/pilotos/l_stroll.avif",
         "escuderia": 5,
-        "posicion": 10,
-        "puntos": 1
+        "posicion": 6,
+        "puntos": 8
     },
     {
         "id": 11,
         "nombre": "Yuki Tsunoda",
         "foto": "../img/pilotos/y_tsunoda.avif",
         "escuderia": 6,
-        "posicion": 11,
+        "posicion": 12,
         "puntos": 0
     },
     {
@@ -92,7 +92,7 @@
         "nombre": "Isack Hadjar",
         "foto": "../img/pilotos/i_hadjar.avif",
         "escuderia": 6,
-        "posicion": 12,
+        "posicion": 20,
         "puntos": 0
     },
     {
@@ -100,15 +100,15 @@
         "nombre": "Nico Hulkenberg",
         "foto": "../img/pilotos/n_hulkenberg.avif",
         "escuderia": 7,
-        "posicion": 13,
-        "puntos": 0
+        "posicion": 7,
+        "puntos": 6
     },
     {
         "id": 14,
         "nombre": "Gabriel Bortoleto",
         "foto": "../img/pilotos/g_bortoleto.avif",
         "escuderia": 7,
-        "posicion": 14,
+        "posicion": 16,
         "puntos": 0
     },
     {
@@ -116,7 +116,7 @@
         "nombre": "Pierre Gasly",
         "foto": "../img/pilotos/p_gasly.avif",
         "escuderia": 8,
-        "posicion": 15,
+        "posicion": 11,
         "puntos": 0
     },
     {
@@ -124,7 +124,7 @@
         "nombre": "Jack Doohan",
         "foto": "../img/pilotos/j_doohan.avif",
         "escuderia": 8,
-        "posicion": 16,
+        "posicion": 19,
         "puntos": 0
     },
     {
@@ -132,7 +132,7 @@
         "nombre": "Oliver Bearman",
         "foto": "../img/pilotos/o_bearman.avif",
         "escuderia": 9,
-        "posicion": 17,
+        "posicion": 14,
         "puntos": 0
     },
     {
@@ -140,7 +140,7 @@
         "nombre": "Esteban Ocon",
         "foto": "../img/pilotos/e_ocon.avif",
         "escuderia": 9,
-        "posicion": 18,
+        "posicion": 13,
         "puntos": 0
     },
     {
@@ -148,15 +148,15 @@
         "nombre": "Alex Albon",
         "foto": "../img/pilotos/a_albon.avif",
         "escuderia": 10,
-        "posicion": 19,
-        "puntos": 0
+        "posicion": 5,
+        "puntos": 10
     },
     {
         "id": 20,
         "nombre": "Carlos Sainz",
         "foto": "../img/pilotos/c_sainz.avif",
         "escuderia": 10,
-        "posicion": 20,
+        "posicion": 18,
         "puntos": 0
     }
 ]

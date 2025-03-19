@@ -5,7 +5,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/red_bull.avif",
         "fotoCoche": "../img/escuderias/coche/red_bull.avif",
         "pilotos": [1, 2],
-        "posicion": 1
+        "posicion": 3
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/ferrari.avif",
         "fotoCoche": "../img/escuderias/coche/ferrari.avif",
         "pilotos": [5, 6],
-        "posicion": 3
+        "posicion": 7
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/mclaren.avif",
         "fotoCoche": "../img/escuderias/coche/mclaren.avif",
         "pilotos": [7, 8],
-        "posicion": 4
+        "posicion": 1
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/racing_bulls.png",
         "fotoCoche": "../img/escuderias/coche/racing_bulls.avif",
         "pilotos": [11, 12],
-        "posicion": 6
+        "posicion": 9
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/sauber.avif",
         "fotoCoche": "../img/escuderias/coche/sauber.avif",
         "pilotos": [13, 14],
-        "posicion": 7
+        "posicion": 6
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "fotoLogotipo": "../img/escuderias/logotipo/haas.avif",
         "fotoCoche": "../img/escuderias/coche/haas.avif",
         "pilotos": [17, 18],
-        "posicion": 9
+        "posicion": 10
     },
     {
         "id": 10,
@@ -77,6 +77,6 @@
         "fotoLogotipo": "../img/escuderias/logotipo/williams.avif",
         "fotoCoche": "../img/escuderias/coche/williams.avif",
         "pilotos": [19, 20],
-        "posicion": 10
+        "posicion": 4
     }
 ]

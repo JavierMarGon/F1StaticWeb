@@ -20,10 +20,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const escuderiaContainer = document.getElementById("escuderia-container");
         escuderiaContainer.innerHTML = `
-            <img src="${escuderia.fotoLogotipo}" alt="${escuderia.nombre} Logo" class="escuderia-logo">
-            <h1>${escuderia.nombre}</h1>
+            <div class="escuderia-title">
+                <img src="${escuderia.fotoLogotipo}" alt="${escuderia.nombre} Logo" class="escuderia-logo">
+            </div>
             <p>Posición en el campeonato: ${escuderia.posicion}</p>
-            <img src="${escuderia.fotoCoche}" alt="Coche de ${escuderia.nombre}" class="escuderia-coche">
+            <div class="escuderia-coche-container">
+                <img src="${escuderia.fotoCoche}" alt="Coche de ${escuderia.nombre}" class="escuderia-coche">
+            </div>
             <h2>Pilotos</h2>
             <div id="pilotos-container"></div>
         `;

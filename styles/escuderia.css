@@ -1,61 +1,94 @@
-/* Estilos generales para la página de detalles de escudería */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
-    color: white;
     margin: 0;
     padding: 0;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
 }
 
 header {
-    background-color: #ff1801;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #e10600; /* F1 Red */
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
     gap: 20px;
 }
 
 nav ul li a {
+    color: #fff;
     text-decoration: none;
-    color: white;
     font-weight: bold;
 }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 900px;
-    margin: 20px auto;
+    flex: 1;
     padding: 20px;
-    background-color: #2c2c2c;
-    border-radius: 10px;
+}
+
+h1 {
+    color: #e10600;
+}
+/* Escudería Title (Logo) */
+.escuderia-title {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .escuderia-logo {
+    max-width: 300px; /* Adjust logo size */
+    height: auto;
     display: block;
-    max-width: 200px;
-    margin: 0 auto;
+    margin: 0 auto; /* Center the logo */
+}
+
+/* Escudería Details */
+#escuderia-container p {
+    font-size: 1.2em;
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Car Image (70% width) */
+.escuderia-coche-container {
+    width: 70%; /* 70% of the viewport width */
+    margin: 0 auto; /* Center the container */
+    overflow: hidden;
 }
 
 .escuderia-coche {
+    width: 100%;
+    height: auto;
     display: block;
-    max-width: 100%;
-    margin: 20px auto;
-    border-radius: 5px;
 }
 
+/* Pilotos Section */
 #pilotos-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
-    justify-items: center;
+    margin-top: 20px;
 }
 
 .piloto-card {
@@ -63,18 +96,83 @@ main {
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
 }
 
-.piloto-foto {
-    max-width: 100px;
+.piloto-card img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    object-fit: cover;
 }
 
+.piloto-card h3 {
+    margin: 10px 0 0;
+    color: #fff;
+}
 footer {
-    background-color: #111;
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack navigation links vertically */
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Add spacing between stacked links */
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust heading size for smaller screens */
+    }
+
+    p {
+        font-size: 0.9em; /* Adjust paragraph size for smaller screens */
+    }
+    .escuderia-logo {
+        max-width: 200px; /* Smaller logo on mobile */
+    }
+
+    .escuderia-coche-container {
+        width: 90%; /* Increase width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header img {
+        height: 40px; /* Adjust logo size for very small screens */
+    }
+
+    nav ul li a {
+        font-size: 0.9em; /* Adjust link size for very small screens */
+    }
+
+    h2 {
+        font-size: 1.3em; /* Further adjust heading size for very small screens */
+    }
+
+    p {
+        font-size: 0.8em; /* Further adjust paragraph size for very small screens */
+    }
+    .escuderia-logo {
+        max-width: 150px; /* Even smaller logo for very small screens */
+    }
+
+    .escuderia-coche-container {
+        width: 100%; /* Full width on very small screens */
+    }
 }
